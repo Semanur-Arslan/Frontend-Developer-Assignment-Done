@@ -1,24 +1,25 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import "./Style/App.css";
+
+import { ApolloProvider } from "@apollo/client";
+import { ApolloClient, InMemoryCache } from "@apollo/client";
+
+import CountriesList from "./Components/CountriesList";
 
 function App() {
+  const client = new ApolloClient({
+    uri: "https://countries.trevorblades.com/graphql",
+    cache: new InMemoryCache(),
+  });
+
   return (
+    // ApolloProvider ile sarmalamak, Apollo Client'ın tüm uygulama boyunca kullanılabilir olmasını sağlamaktadır.
+
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <ApolloProvider client={client}>
+        <CountriesList />
+      </ApolloProvider>
     </div>
   );
 }
