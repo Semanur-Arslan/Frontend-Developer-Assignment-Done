@@ -4,6 +4,7 @@ import { gql } from "graphql-tag";
 import SearchAndGroupComponent from "./SearchAndGroup";
 import TableFooter from "./TableFooter";
 
+
 const COUNTRIES_QUERY = gql`
   query GetCountries {
     countries {
