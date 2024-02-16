@@ -21,7 +21,7 @@ To run the project locally, follow these steps:
 ## Usage
 The project utilizes React and TypeScript to create a dynamic user interface for list management. It retrieves data from the GraphQL Countries open-source API and checks this data regularly. Incoming data can be sorted, searched, and viewed with a user-friendly interface, providing users with a seamless experience to interact with and manage the displayed information.
 
-![Frontend-Developer-Assignmen](Frontend-Developer-Assignment.jpeg)
+![Frontend-Developer-Assignmen](Frontend-Developer-Assignment-.jpeg)
 
 ### Features:
 #### Search and Grouping Functions
