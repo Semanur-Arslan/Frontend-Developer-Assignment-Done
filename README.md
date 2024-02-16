@@ -13,10 +13,10 @@ Contributing
 ## Installation
 To run the project locally, follow these steps:
 
-Clone the repository: git clone https://github.com/Semanur-Arslan/Frontend-Developer-Assignment-Done.git
-Navigate to the project directory: cd Frontend-Developer-Assignment-Done
-Install dependencies: npm install
-Start the development server: npm start
+### Clone the repository: git clone https://github.com/Semanur-Arslan/Frontend-Developer-Assignment-Done.git
+### Navigate to the project directory: cd Frontend-Developer-Assignment-Done
+### Install dependencies: npm install
+### Start the development server: npm start
 
 ## Usage
 The project utilizes React and TypeScript to create a dynamic user interface for list management. It retrieves data from the GraphQL Countries open-source API and checks this data regularly. Incoming data can be sorted, searched, and viewed with a user-friendly interface, providing users with a seamless experience to interact with and manage the displayed information.
