@@ -1,46 +1,33 @@
-# Getting Started with Create React App
+# React TypeScript Project: Frontend Developer Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Overview
+This repository contains the completed Frontend Developer Assignment, implemented in React with TypeScript. The project focuses on list management and data handling, utilizing the GraphQL Countries open-source API for data retrieval.
 
-## Available Scripts
+## Table of Contents
+Installation
+Usage
+Technologies Used
+Features
+Contributing
 
-In the project directory, you can run:
+## Installation
+To run the project locally, follow these steps:
 
-### `npm start`
+Clone the repository: git clone https://github.com/Semanur-Arslan/Frontend-Developer-Assignment-Done.git
+Navigate to the project directory: cd Frontend-Developer-Assignment-Done
+Install dependencies: npm install
+Start the development server: npm start
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Usage
+The project utilizes React and TypeScript to create a dynamic user interface for list management. It retrieves data from the GraphQL Countries open-source API and checks this data regularly. Incoming data can be sorted, searched, and viewed with a user-friendly interface, providing users with a seamless experience to interact with and manage the displayed information.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Features:
+#### Search and Grouping Functions
+Users can perform data searches quickly and effectively through the project's search section. Additionally, they have the ability to group data based on currency and region options, allowing them to filter information according to their areas of interest.
 
-### `npm test`
+#### Pagination Functions
+The project provides users with the ability to select page numbers and control the number of displayed data in the footer section. This enables smooth navigation through large datasets and facilitates the ease of viewing the desired amount of data.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Technologies Used
+React
+TypeScript
