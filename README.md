@@ -31,5 +31,5 @@ Users can perform data searches quickly and effectively through the project's se
 The project provides users with the ability to select page numbers and control the number of displayed data in the footer section. This enables smooth navigation through large datasets and facilitates the ease of viewing the desired amount of data.
 
 ## Technologies Used
-React
-TypeScript
+### React
+### TypeScript
